@@ -7,6 +7,8 @@ module Gattica
   
   class Auth
     
+    VERSION = '0.3.4'
+    
     include Convertible
 
     SCRIPT_NAME = '/accounts/ClientLogin'
